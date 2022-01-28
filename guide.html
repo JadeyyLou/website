@@ -1,0 +1,327 @@
+<p>Hello World!</p> 
+<!-- this is a paragraph. -->
+
+<h1>This is a title</h1>
+<!-- this is a heading. title is bigger -->
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2> 
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+ <!-- these are all headings 
+as the number increses, relevancy goes down. SEO search engine optimiseation -->
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, labore iure assumenda ipsum laboriosam necessitatibus quaerat accusamus optio possimus aperiam exercitationem temporibus placeat deserunt. Natus architecto similique officia error ullam ad obcaecati ipsam libero eos odio ipsa ea assumenda tempora in at, facilis a dolore amet suscipit illum saepe itaque consequatur! Harum cupiditate, molestiae facilis odio dignissimos, asperiores nihil eum aperiam adipisci a et expedita at labore aut numquam quo aspernatur accusamus dolores vitae incidunt quis similique. Autem sit, neque, eos ea, necessitatibus porro incidunt doloremque ab quo vero qui beatae error id. Itaque, aliquid ea! Nihil dolorum voluptatem saepe.</p>
+<!-- this is filler text. -->
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Sapiente, labore iure assumenda ipsum laboriosam necessitatibus quaerat accusamus optio possimus aperiam exercitationem temporibus placeat deserunt. <br> Natus architecto similique officia error ullam ad obcaecati ipsam libero eos odio ipsa ea assumenda tempora in at, facilis a <br> dolore amet suscipit illum saepe itaque consequatur! Harum cupiditate, molestiae facilis odio dignissimos, asperiores nihil eum aperiam adipisci a et expedita at labore aut numquam quo aspernatur accusamus dolores vitae incidunt quis similique.<br> Autem sit, neque, eos ea, necessitatibus porro incidunt doloremque ab quo vero qui beatae error id. Itaque, aliquid ea! Nihil dolorum voluptatem saepe.</p>
+<!-- can add more than one <br>, when more advanced, dont use them too much. use css for spacing
+br will pop what ever is after it on next line.-->
+
+
+<a href="https://www.google.com">This is a link to google</a>
+<!-- this is how to add a link -->
+<!-- the text between>and< is how the link appears in the browser. -->
+<a href="https://www.facebook.com/jadelouise.simm" target="_blank"> Take a look at my FB page :) </a>
+<!-- for external links -->
+<!-- target="_blank" opens external links.-->
+<br>
+
+<img src="image1.png" alt="image from FFX">
+<!-- this is how to add an image. -->
+
+<!-- this is extra , how to put images from folder. | -->
+<img src="lee/lee-evans-comedian-17382b97-f35f-4abb-8d4f-949d9ae3ca3-resize-750.jpeg" alt="Lee evans">
+<!-- this will tell it to get image from folder -->
+<!-- all images we want to use need to be in the folder we have open. -->
+
+<a href="https://www.google.com" target="_blank"><img src="image1.png" alt="Game image"></a>
+<!-- this is how we turn an image into a link -->
+
+
+<!-- everything goes in the body  , code is still read from top to bottom.-->
+
+
+
+<!DOCTYPE html>
+<!-- instructs its an html page.^ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<!-- change word "document" to what ever your page is called -->
+</head>
+<!-- important info, syle sheet tab -->
+<body>
+<!--  everything that you can visualy see goes in body. -->
+    
+</body>
+</html>
+<!-- always the very last line^ -->
+<!-- html:5 sneaky shortcut^
+deleted lines 5 and 6 -->
+
+
+<div>
+    <a href="index.html">Home</a>
+    <a href="leeevansbg.html">About Lee</a>
+    <a href="leeshows.html">Shows</a>
+</div>
+<!-- this is how to add a nav bar.. eg... pg1 pg2 pg3. -->
+
+<!-- un ordered list (bullet points)-->
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Hot Chocolate</li>
+   </ul>
+
+<!-- ordered list. numbers. -->
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Hot Chocolate</li>
+   </ol>
+
+<!-- description list -->
+<dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Tea</dt>
+    <dd>White cold drink</dd>
+   </dl>
+   <!-- coffee
+           black hot drink 
+        tea
+           white cold drink-->
+
+<!-- nested list -->
+<ul>
+    <li>Coffee</li>
+       <li>Tea 
+           <ul>
+              <li>Black tea</li>
+              <li>Green tea</li>
+         </ul> 
+      </li>
+     <li>Milk</li>
+   </ul>
+   <!-- coffee
+        tea
+           black tea
+           green tea
+        milk -->
+
+
+        <!-- for buttons 
+        <div>
+ <button type="button">Home</button> 
+ <button type="button">About Lee</button>
+ <button type="button">Shows</button>
+
+</div>-->
+-----------------------------------------------------------------------------------------------------------
+------------------------------CSS--------------------------------------------------------------------------
+<!-- research inline styling. its not good coding.
+internal is properly formatted css in html but messy
+we are doing external style sheet. link it to the html 
+
+
+style has to be in head
+href is hyper text ref.
+to like ... type link and click :css
+always start top to bottom
+
+headings section things nicely.
+css uses curly brackets {}
+american spelling color.
+end of each rule ; DONT FORGET
+
+/* can use multiple tage h1, h2, seperated by commas.
+can also target whole html*{ good for setting background. but dont use its not good. as it will add a background to everything. */
+
+class selector .name 
+           background-color: blah
+        <p class = "welcome  <- this is an attribute. have to put->. before calling class (welcome)
+            
+            have to use a class^ to meet criteria
+            classes can be named what ever you want. name it relatable.
+            em emphsised , and italic
+
+           
+           ** makeMeRed- camel case- starts lover case, then everything after first letter capital.">-->
+
+<!-- calss v id #specialblue
+                 ^ call id with #
+                for 1 section.
+                id can only be used once <p id= "____" 
+        useful for javascript.
+            id can create jump link. name <p the create link. jumps you to that point.-->
+
+<!-- context padding border margin all normaly 0 by default axept margin
+       if margin is set to 0px theres no gap 
+    right click and inpect... will show you webpage properties in browser.
+             
+    body {
+    margin : 0px
+}
+ 
+
+********to resize img  give class or id ... give them name and give height and width
+ID......
+img id="image1.png" src="image1.png"-->
+<!-- to call #image1  -->
+<!-- CLASS.....
+img id="image1.png" src="image1.png" 
+to call .image1*******************************->
+
+
+
+color values........
+string   (tomato)
+hex (#ff6347)
+rgb values (255,99,71,0.5)
+     rgb can have 4th number = transparency 1 highest...0 lowest. put rgba<- if adding same value :)
+
+     ------- background image ..
+     target body
+        body {
+            background-image: url("nameofimage.jpeg")
+        }
+
+
+
+
+
+
+
+
+
+
+
+<!-- box sizing...brings it in.
+    *{
+    box-sizing: border-box;
+}
+
+padding: 25px 50px 75px 100px;
+
+       ^top right bottom left. is the order it goes in.
+
+
+-------------
+height and width of an element
+-value
+ -auto browser calculates
+ -lenght defines height/width in px
+
+ -%defines the width in percentege of the containing block
+^^^ this is recomended
+
+
+/* *{background-color:grey;}
+this is how to target all html. */
+.lee {
+    background-color: red;
+} 
+/* this is how we target a class in index its class= "lee" indide <p>*/
+
+
+.large{
+    font-size:30px;
+}
+.blue {
+    background-color:silver;
+}
+* {box-sizing:border-box;
+padding : 25px} */
+
+
+
+-----------------------------------------------------------------------------------------------
+FONTS
+
+font-family:____;
+font-style:_____;
+font-weight:_____;    400 normal 700 is classed as bold
+
+
+fonts.google.com 
+choose a font
+   +select style
+   click import
+   copy code inside style tags but not the style tabs
+   copy font name and tag , copy it in and comment it out.
+
+   -------------------------FLEX BOX -------------------------
+
+   MAIN AXIS ACROSS
+   CROSS AXIS UP DOWN
+
+   .container{               main box
+   display: flex;
+   min-height: 100vh;                     parent
+   flex-direction:row;
+   flex-wrap: wrap;    or percentages.
+   justify-content: center;
+                  : space-evenly;
+                  :space between;
+                  :space around;
+                  stuff in a row moves across
+    align-items: flex-end; > 
+               : center; 
+               
+               
+
+
+in index html page 
+  <div class="container">
+      <div class="box box1">1</div>
+               
+                moved things up and down
+   }
+justify content- aligns content
+
+
+   .box{   
+       display: flex;               numbers in the example.
+       color: white;
+       font-family'Bebas Neue', cursive
+       font-size:50px;
+       text-align:center;
+       padding: 15px;                           child
+       width:400px; or 
+       width:33.3%;
+       align-items:center;
+   }
+the boxes are only as big as they need to be, set box width in box class.
+   div is containing things.
+   parent child relationdhip 
+
+flexwrap lets them be aslong as you want , will put more on one line where it can, if not will move to the next line.
+
+flex start on the left flext end on left. in a 
+flex start is to and flex end is bottom in alighn
+
+
+row -justify side side alighn up down
+column- justify up down alighn up down
+
+
+---------------background code-----------
+this keeps the background still while the user scrolls.
+
+body {
+    background-image : url("lee/background3.jpg");
+    /* dont forget semi colon;!!!! */
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin : 0px ;
+   }
+
+
+-->

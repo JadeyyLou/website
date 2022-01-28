@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+
+   
+body {
+    background-image : url("lee/background3.jpg");
+    /* dont forget semi colon;!!!! */
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin : 0px ;
+   }
+ 
+/*--------------------- NAV BAR ---------------*/
+#navbar {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color:midnightblue;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+#navbar a:hover{
+    color: rgb(44, 230, 255);
+}
+
+/* ------- FONTS AND TEXT SETTINGS--------- */
+p {
+    font-family: 'Bebas Neue', cursive;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.text1 {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+}
+.text2 {
+    display: flex;
+    justify-content: center;
+    color:blue;
+    font-family:'Bebas Neue', cursive; 
+    font-size: 30px;
+}
+.text3 {
+    font-family:'Bebas Neue', cursive; 
+    font-size: 18px;
+    padding-left: 20px;
+}
+.text4 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 20px;
+}
+
+/* -------------- IMAGE SETTINGS -------------- */
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: auto;
+}
+.img2 { 
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------- YOUTUBE LINK--------------------- */
+.link1 {
+    color:midnightblue;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.link1 a:hover {
+    color: rgb(44, 230, 255);
+}
+
+/* --------------------------LIST LAYOUT PAGE 3 ------------------ */
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:33.3%;
+    justify-content: space-evenly;
+    align-content: space-around;
+    /* min-height: 100vh; */
+}
+.shows{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: space-evenly;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    /* padding:15px; */
+}
+
+
